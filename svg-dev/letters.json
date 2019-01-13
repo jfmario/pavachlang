@@ -1,0 +1,120 @@
+{
+  "m": {
+    "filename": "m",
+    "baseline": "bottom",
+    "alone": "M 10 90 L 10 50 C 10 10 90 10 90 50 L 90 90 L 100 90",
+    "bottom": "M 10 90 L 10 50 C 10 10 45 10 45 50 L 45 90 L 50 90",
+    "center": "M 10 50 L 10 25 C 10 10 45 10 45 25 L 45 50 L 50 50"
+  },
+  "n": {
+    "filename": "n",
+    "baseline": "top",
+    "alone": "M 10 10 L 10 50 C 10 90 90 90 90 50 L 90 10 L 100 10",
+    "top": "M 10 10 L 10 50 C 10 90 45 90 45 50 L 45 10 L 50 10",
+    "center": "M 10 50 L 10 75 C 10 90 45 90 45 75 L 45 50 L 50 50"
+  },
+  "ng": {
+    "filename": "ng",
+    "baseline": "top",
+    "alone": "M 10 90 L 10 50 C 10 10 50 10 50 50 C 50 90 90 90 90 50 L 90 10 L 100 10",
+    "top": "M 10 90 L 10 50 C 10 10 25 10 25 50 C 25 90 45 90 45 50 L 45 10 L 50 10",
+    "center": "M 10 90 L 10 50 C 10 10 25 10 25 50 C 25 90 45 90 45 50 L 50 50"
+  },
+  "p": {
+    "filename": "p",
+    "baseline": "bottom",
+    "alone": "M 90 10 L 10 90 L 100 90",
+    "bottom": "M 45 10 L 10 90 L 50 90",
+    "center": "M 45 10 L 10 50 L 50 50"
+  },
+  "b": {
+    "filename": "b",
+    "baseline": "top",
+    "alone": "M 90 90 L 10 10 L 100 10",
+    "top": "M 45 90 L 10 10 L 50 10",
+    "center": "M 45 90 L 10 50 L 50 50"
+  },
+  "t": {
+    "filename": "t",
+    "baseline": "bottom",
+    "alone": "M 10 10 L 10 90 L 100 90",
+    "bottom": "M 10 10 L 10 90 L 50 90",
+    "center": "M 10 10 L 10 50 L 50 50"
+  },
+  "d": {
+    "filename": "d",
+    "baseline": "top",
+    "alone": "M 10 90 L 10 10 L 100 10",
+    "top": "M 10 90 L 10 10 L 50 10",
+    "center": "M 10 90 L 10 50 L 50 50"
+  },
+  "k": {
+    "filename": "k",
+    "baseline": "bottom",
+    "alone": "M 10 10 L 90 90 L 100 90",
+    "bottom": "M 10 10 L 45 90 L 50 90",
+    "center": "M 10 10 L 45 50 L 50 50"
+  },
+  "g": {
+    "filename": "g",
+    "baseline": "top",
+    "alone": "M 10 90 L 90 10 L 100 10",
+    "top": "M 10 90 L 45 10 L 50 10",
+    "center": "M 10 90 L 45 10 L 50 50"
+  },
+  "kk": {
+    "filename": "kk",
+    "baseline": "bottom",
+    "alone": "M 10 90 L 50 10 L 90 90 L 100 90",
+    "bottom": "M 10 90 L 25 10 L 45 90 L 50 90",
+    "center": "M 10 50 L 25 10 L 45 50 L 50 50"
+  },
+  "gg": {
+    "filename": "gg",
+    "baseline": "top",
+    "alone": "M 10 10 L 50 90 L 90 10 L 100 10",
+    "top": "M 10 10 L 25 90 L 45 10 L 50 10",
+    "center": "M 10 50 L 25 90 L 45 50 L 50 50"
+  },
+  "s": {
+    "filename": "s",
+    "baseline": "bottom",
+    "alone": "M 75 10 C 10 10 10 90 90 90 L 100 90",
+    "bottom": "M 35 10 C 10 10 10 90 45 90 L 50 90",
+    "center": "M 35 10 C 10 10 10 50 45 50 L 50 50"
+  },
+  "z": {
+    "filename": "z",
+    "baseline": "top",
+    "alone": "M 75 90 C 10 90 10 10 90 10 L 100 10",
+    "top": "M 35 90 C 10 90 10 10 45 10 L 50 10",
+    "center": "M 35 90 C 10 90 10 50 45 50 L 50 50"
+  },
+  "sh": {
+    "filename": "sh",
+    "baseline": "bottom",
+    "alone": "M 50 50 C 90 50 90 10 50 10 C 10 10 10 90 50 90 L 100 90",
+    "bottom": "M 25 50 C 45 50 45 10 25 10 C 10 10 10 90 25 90 L 50 90",
+    "center": "M 25 25 C 45 25 45 10 25 10 C 10 10 10 50 25 50 L 50 50"
+  },
+  "zh": {
+    "filename": "zh",
+    "baseline": "top",
+    "alone": "M 50 50 C 90 50 90 90 50 90 C 10 90 10 10 50 10 L 100 10",
+    "top": "M 25 50 C 45 50 45 90 25 90 C 10 90 10 10 25 10 L 50 10",
+    "center": "M 25 75 C 45 75 45 90 25 90 C 10 90 10 50 25 50 L 50 50"
+  },
+  "f": {
+    "filename": "f",
+    "baseline": "bottom",
+    "alone": "M 90 75 L 50 10 L 10 90 L 100 90",
+    "bottom": "M 45 75 L 25 10 L 10 90 L 50 90",
+    "center": "M 45 35 L 25 10 L 10 50 L 50 50"
+  },
+  "v": {
+    "filename": "v",
+    "baseline": "top",
+    "alone": "M 90 25 L 50 90 L 10 10 L 100 10",
+    "top": "M 45 25 L 25 90 L 10 10 L 50 10"
+  }
+}
