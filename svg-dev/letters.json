@@ -115,6 +115,7 @@
     "filename": "v",
     "baseline": "top",
     "alone": "M 90 25 L 50 90 L 10 10 L 100 10",
-    "top": "M 45 25 L 25 90 L 10 10 L 50 10"
+    "top": "M 45 25 L 25 90 L 10 10 L 50 10",
+    "center": "M 45 65 L 25 90 L 10 50 L 50 50"
   }
 }
