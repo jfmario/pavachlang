@@ -85,6 +85,15 @@ function processConsonant(letterKey) {
   let form1 = combinedForm1.join(' ');
   let form2 = combinedForm2.join(' ');
   
+  if (letter.direction  <  0) {
+    let tempForm = form1;
+    form1 = form2;
+    form2 = tempForm;
+  }
+  else if (letter.direction == 0) {
+    form2 = form1;
+  }
+  
   return { ...letter, form1, form2 };
 }
 

@@ -1,6 +1,6 @@
 
 <template>
-  <template>
+  <div>
     <svg height="100" width="100" viewBox="0 0 100 100">
       <path
         :d="path"
@@ -9,7 +9,7 @@
         stroke-width="5"
       />
     </svg>
-  </template>
+  </div>
 </template>
 
 <script>
