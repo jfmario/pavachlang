@@ -13,5 +13,25 @@
     "name": "ngeng",
     "standard": "M 10 90 L 10 50 C 10 10 50 10 50 50 C 50 90 90 90 90 50 L 100 50",
     "direction": 0
+  },
+  "p": {
+    "name": "paab",
+    "standard": "M 10 10 L 10 90 L 100 90",
+    "direction": 1
+  },
+  "b": {
+    "name": "bap",
+    "standard": "M 10 90 L 10 10 L 100 10",
+    "direction": -1
+  },
+  "t": {
+    "name": "taad",
+    "standard": "M 90 10 L 10 90 L 100 90",
+    "direction": 1
+  },
+  "d": {
+    "name": "dat",
+    "standard": "M 90 90 L 10 10 L 100 10",
+    "direction": -1
   }
 }
