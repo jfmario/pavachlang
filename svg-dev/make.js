@@ -46,7 +46,7 @@ function transform2(x, y, dir=1) {
 function processConsonant(letterKey) {
   
   let letter = consonants[letterKey];
-  let re = /[A-Z][\s\d]+/g;
+  let re = /[A-Z,][\s\d]+/g;
   
   let s = letter.standard;
   let m = "";
@@ -58,11 +58,16 @@ function processConsonant(letterKey) {
     m = re.exec(s);
     if (m) {
       
+      // if (letterKey == 'z') console.log(m[0]);
+      
       let splitString = m[0].trim().split(/\s/);
       let operation = splitString.shift();
       
       combinedForm1.push(operation);
       combinedForm2.push(operation);
+      
+      // if (letterKey == 'z') console.log(operation);
+      // if (letterKey == 'z') console.log(splitString);
       
       if (splitString.length % 2 != 0) {
         throw "Bad Input String";
@@ -71,6 +76,8 @@ function processConsonant(letterKey) {
           
           let x = parseInt(splitString.shift());
           let y = parseInt(splitString.shift());
+          
+          // if (letterKey == 'z') console.log(x, y);
           
           let t1 = transform1(x, y, letter.direction);
           let t2 = transform2(x, y, letter.direction);

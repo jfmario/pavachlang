@@ -57,6 +57,141 @@
   "s": {
     "name": "saaz",
     "standard": "M 90 10 C 10 0, 10 100, 90 90 L 100 90",
-    "name": 1
+    "direction": 1
+  },
+  "z": {
+    "name": "zas",
+    "standard": "M 90 90 C 10 100, 10 0, 90 10 L 100 10",
+    "direction": -1
+  },
+  "sh": {
+    "name": "shaazh",
+    "standard": "M 50 50 C 90 50, 90 10, 50 10 C 10 10, 10 100, 90 90 L 100 90",
+    "direction": 1
+  },
+  "zh": {
+    "name": "zhash",
+    "standard": "M 50 50 C 90 50, 90 90, 50 90 C 10 90, 10 0, 90 10, L 100 10",
+    "direction": -1
+  },
+  "f": {
+    "name": "faav",
+    "standard": "M 10 10 C 70 10, 90 30, 90 90 L 100 90",
+    "direction": 1
+  },
+  "v": {
+    "name": "vaf",
+    "standard": "M 10 90 C 70 90, 90 70, 90 10 L 100 10",
+    "direction": -1
+  },
+  "th": {
+    "name": "thaadh",
+    "standard": "M 10 10 C 90 0, 90 100, 10 90 L 100 90",
+    "direction": 1
+  },
+  "dh": {
+    "name": "dhath",
+    "standard": "M 10 90 C 90 100, 90 0, 10 10 L 100 10",
+    "direction": -1
+  },
+  "kh": {
+    "name": "khaagh",
+    "standard": "M 10 90 C 0 10, 100 0, 90 50 C 90 90, 90 90, 50 90 L 100 90",
+    "direction": 1
+  },
+  "gh": {
+    "name": "ghakh",
+    "standard": "M 10 10 C 0 90, 100 100, 90 50 C 90 10, 90 10, 50 10 L 100 10",
+    "direction": -1
+  },
+  "ch": {
+    "name": "chaaj",
+    "standard": "M 10 10 L 90 90 L 100 90",
+    "direction": 1
+  },
+  "j": {
+    "name": "jach",
+    "standard": "M 10 90 L 90 10 L 100 10",
+    "direction": -1
+  },
+  "h": {
+    "name": "heh",
+    "standard": "M 10 50 C 0 0, 100 0, 90 50 C 100 100, 0 100, 10 50 M 50 50 L 100 50",
+    "direction": 0
+  },
+  "hh": {
+    "name": "hhaw",
+    "standard": "M 50 90 C 100 0, 0 0, 50 90 L 100 90",
+    "direction": 1
+  },
+  "w": {
+    "name": "wah",
+    "standard": "M 50 10 C 100 100, 0 100, 50 10 L 100 10",
+    "direction": -1
+  },
+  "r": {
+    "name": "raal",
+    "standard": "M 90 50 C 0 50, 0 10, 90 10 L 90 90 L 100 90",
+    "direction": 1
+  },
+  "l": {
+    "name": "lar",
+    "standard": "M 90 50 C 0 50, 10 90, 90 90 L 90 10 L 100 10",
+    "direction": -1
+  },
+  "rr": {
+    "name": "rraay",
+    "standard": "M 10 50 C 100 50, 100 10, 10 10 L 10 90 L 100 90",
+    "direction": 1
+  },
+  "y": {
+    "name": "yar",
+    "standard": "M 10 50 C 100 50, 100 90, 10 90 L 10 10 L 100 10",
+    "direction": -1
+  },
+  "ts": {
+    "name": "tsaadz",
+    "standard": "M 90 10 L 50 50 C 0 50, 0 90, 50 90 L 100 90",
+    "direction": 1
+  },
+  "dz": {
+    "name": "dzats",
+    "standard": "M 90 90 L 50 50 C 0 50, 0 10, 50 10 L 100 10",
+    "direction": -1
+  },
+  "tch": {
+    "name": "tchaadj",
+    "standard": "M 10 90 L 50 10 L 90 90 L 100 90",
+    "direction": 1
+  },
+  "dj": {
+    "name": "djatch",
+    "standard": "M 10 10 L 50 90 L 90 10 L 100 10",
+    "direction": -1
+  },
+  "tl": {
+    "name": "tlaadr",
+    "standard": "M 90 10 L 50 90 L 10 50 L 90 90 L 100 90",
+    "direction": 1
+  },
+  "dr": {
+    "name": "dratl",
+    "standard": "M 90 90 L 50 10 L 10 50 L 90 10 L 100 10",
+    "direction": -1
+  },
+  "mr": {
+    "name": "omr",
+    "standard": "M 50 50 C 50 10, 90 10, 90 50 L 50 50 C 10 50, 10 90, 50 90 L 100 90",
+    "direction": 1
+  },
+  "nl": {
+    "name": "onl",
+    "standard": "M 50 50 C 50 90, 90 90, 90 50 L 50 50 C 10 50, 10 10, 50 10 L 100 10",
+    "direction": -1
+  },
+  "?": {
+    "name": "?e?",
+    "standard": "M 90 10 C 10 10, 10 90, 90 90 M 10 50 L 100 50",
+    "direction": 0
   }
 }
