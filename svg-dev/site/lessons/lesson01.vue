@@ -4,11 +4,15 @@
     
     <h2>Consonants</h2>
     
-    <AllConsonants :consonants="consonants" :vowels="vowels" />
+    <p class="lead">Here is a little description.</p>
+    
+    <AllConsonants :consonants="consonants" :vowels="vowels"/>
+    
+    <p>Here is some post-text.</p>
     
     <h2>Vowels</h2>
     
-    <AllVowels :consonants="consonants" :vowels="vowels" />
+    <AllVowels :consonants="consonants" :vowels="vowels"/>
   </div>
 </template>
 
