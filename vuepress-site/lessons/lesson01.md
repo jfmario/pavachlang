@@ -1,9 +1,11 @@
 
-# Lesson 1: Consonants and Vowels
+# Lesson 1: The Pavach Alphabet and Basic Writing
 
-## Consonants Chart
+## Letters
 
-Here are the consonants.
+### Consonants Chart
+
+Here are the official consonants of the Pavach language.
 
 | Character | Name | Transliteration | Sound |
 | --- | --- | --- | --- |
@@ -20,8 +22,8 @@ Here are the consonants.
 | <PavachText :size="20" text="gg" /> | *&#x0262;a&#x1d0b;* | **&#x0262;** | guttural "g" sound |
 | <PavachText :size="20" text="s" /> | *s&#x0101;z* | **s** | **s**ay, ga**s** |
 | <PavachText :size="20" text="z" /> | *zas* | **z** | **z**ebra, bla**z**e |
-| <PavachText :size="20" text="sh" /> | *s&#x0101;z* | **s** | **s**ay, ga**s** |
-| <PavachText :size="20" text="zh" /> | *zas* | **z** | **z**ebra, bla**z**e |
+| <PavachText :size="20" text="sh" /> | *&#x0161;&#x0101;&#x017e;* | **&#x0161;** | **sh**ape, ba**sh** |
+| <PavachText :size="20" text="zh" /> | *&#x017e;a&#x0161;* | **&#x017e;** | the "zh" sound |
 | <PavachText :size="20" text="f" /> | *f&#x0101;v* | **f** | **f**amily, lau**gh** |
 | <PavachText :size="20" text="v" /> | *vaf* | **v** | **v**ideo, ca**v**e |
 | <PavachText :size="20" text="th" /> | *&#x03b8;&#x0101;&#x00f0;* | **&#x03b8;** | **th**ink, ba**th** |
@@ -31,7 +33,7 @@ Here are the consonants.
 | <PavachText :size="20" text="ch" /> | *&#x010d;&#x0101;j* | **&#x010d;** | **ch**ur**ch** |
 | <PavachText :size="20" text="j" /> | *ja&#x010d;* | **j** | **j**ustice |
 | <PavachText :size="20" text="h" /> | *heh* | **h** | **h**atred, be**h**ave |
-| <PavachText :size="20" text="hh" /> | *&#x029c;&#x0101;w* | **&#x029c;** | heaver "h" sound |
+| <PavachText :size="20" text="hh" /> | *&#x029c;&#x0101;w* | **&#x029c;** | heavier "h" sound |
 | <PavachText :size="20" text="w" /> | *wa&#x029c;* | **w** | **w**est, be**w**are |
 | <PavachText :size="20" text="r" /> | *r&#x0101;l* | **r** | **r**egulation, b**r**ag |
 | <PavachText :size="20" text="rr" /> | *&#x0280;&#x0101;y* | **&#x0280;** | rolled "r" sound |
@@ -47,9 +49,11 @@ Here are the consonants.
 | <PavachText :size="20" text="nl" /> | *o&#x0273;* | **&#x0273;** | the "nl" sound |
 | <PavachText :size="20" text="?" /> | *&#x0294;e&#x0294;* | **&#x0294;** | glottal stop |
 
-## Vowels Chart
+### Vowels Chart
 
-Here are the vowels.
+All of the consonants end with a line going towards the right. They are 
+supposed to connect with a vowel. Vowels attach to consonants. Here are the 
+official vowels of the Pavach language.
 
 | Character | Name | Transliteration | Sound |
 | --- | --- | --- | --- |
@@ -68,3 +72,28 @@ Here are the vowels.
 | <PavachText :size="20" text=".ou" /> | *s&#x014f;* | **&#x014f;** | n**ow**, **ou**ch  |
 | <PavachText :size="20" text=".oi" /> | *s&#x022f;* | **&#x022f;** | **oy**ster, b**oy**  |
 | <PavachText :size="20" text="._" /> | *s&#x0259;* | **&#x0259;** | insignificant short vowel  |
+
+## Characters
+
+### Regular Characters
+
+Syllables are formed by combining a consonant with a vowel. For example,
+the consonant <PavachTrans text="m.aa-n" /> and the vowel 
+<PavachTrans text="s.aa" /> combine to form the
+syllable <PavachTrans text="m.aa" />.
+
+<PavachText :size="20" text="m" /> + <PavachText :size="20" text=".aa" /> = <PavachText :size="20" text="m.aa" />
+
+For another example, the consonant <PavachTrans text="s.aa-z" /> and the vowel
+<PavachTrans text="s.uu" />
+combine to form the syllable <PavachTrans text="s.uu" />
+(which is the name of the vowel).
+
+<PavachText :size="20" text="s" /> + <PavachText :size="20" text=".uu" /> = <PavachText :size="20" text="s.uu" />
+
+The consonant and the vowel combine to make a **character**. A character is a
+consonant-vowel combination, even if the consonant or vowel is not present. 
+If both the consonant and vowel are present, as in both of the examples above,
+the character is called a **regular character**.
+
+### Lone Consonants

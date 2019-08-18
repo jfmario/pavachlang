@@ -2,76 +2,91 @@
   "ii": {
     "name": "sii",
     "standard": "M 0 90 L 90 90 L 10 10",
-    "direction": 1
+    "direction": 1,
+    "trans": "&#x012b;"
   },
   "aa": {
     "name": "saa",
     "standard": "M 0 90 L 90 90 L 90 10",
-    "direction": 1
+    "direction": 1,
+    "trans": "&#x0101;"
   },
   "uu": {
     "name": "suu",
     "standard": "M 0 90 L 10 90 L 90 10",
-    "direction": 1
+    "direction": 1,
+    "trans": "&#x016b;"
   },
   "i": {
     "name": "si",
     "standard": "M 0 10 L 90 10 L 10 90",
-    "direction": -1
+    "direction": -1,
+    "trans": "i"
   },
   "a": {
     "name": "sa",
     "standard": "M 0 10 L 90 10 L 90 90",
-    "direction": -1
+    "direction": -1,
+    "trans": "a"
   },
   "u": {
     "name": "su",
     "standard": "M 0 10 L 10 10 L 90 90",
-    "direction": -1
+    "direction": -1,
+    "trans": "u"
   },
   "e": {
     "name": "se",
     "standard": "M 0 90 L 10 90 L 50 10 L 90 90",
-    "direction": 1
+    "direction": 1,
+    "trans": "e"
   },
   "oo": {
     "name": "soo",
     "standard": "M 0 10 L 50 10 C 0 100, 50 100, 90 10",
-    "direction": -1
+    "direction": -1,
+    "trans": "&#x0151;"
   },
   "o": {
     "name": "so",
     "standard": "M 0 90 C 120 50, 0 0, 25 50",
-    "direction": 1
+    "direction": 1,
+    "trans": "o"
   },
   "ie": {
     "name": "sie",
     "standard": "M 0 90 C 100 90, 100 50, 25 50",
-    "direction": 1
+    "direction": 1,
+    "trans": "&#x0129;"
   },
   "ei": {
     "name": "sei",
     "standard": "M 0 90 L 10 90 L 25 50 L 50 90 C 100 90, 100 10, 25 10",
-    "direction": 1
+    "direction": 1,
+    "trans": "&#x0117;"
   },
   "ai": {
     "name": "sai",
     "standard": "M 0 90 L 10 90 L 90 50 L 50 90 L 10 10",
-    "direction": 1
+    "direction": 1,
+    "trans": "&#x0227;"
   },
   "ou": {
     "name": "sou",
     "standard": "M 0 90 L 75 90 C 10 90, 10 50, 90 50",
-    "direction": 1
+    "direction": 1,
+    "trans": "&#x014f;"
   },
   "oi": {
     "name": "soi",
     "standard": "M 0 50 L 50 50 C 100 100, 100 0, 25 10",
-    "direction": 0
+    "direction": 0,
+    "trans": "&#x022f;"
   },
   "_": {
     "name": "f_raa?",
     "standard": "M 0 50 L 10 50 L 25 90 L 50 10 L 90 90",
-    "direction": 0
+    "direction": 0,
+    "trans": "&#x0259;"
   }
 }

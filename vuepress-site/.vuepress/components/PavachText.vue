@@ -1,6 +1,6 @@
 
 <template>
-  <div v-if="ready">
+  <span v-if="ready">
     <span v-for="p in pathlist">
       <svg :height="size" :width="size" viewBox="0 0 100 100">
         <path
@@ -11,7 +11,7 @@
         />
       </svg>
     </span>
-  </div>
+  </span>
 </template>
 
 <script>
