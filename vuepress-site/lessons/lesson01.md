@@ -37,3 +37,34 @@ Here are the consonants.
 | <PavachText :size="20" text="rr" /> | *&#x0280;&#x0101;y* | **&#x0280;** | rolled "r" sound |
 | <PavachText :size="20" text="l" /> | *lar* | **l** | **l**ife, ye**ll**ow |
 | <PavachText :size="20" text="y" /> | *ya&#x0280;* | **y** | **y**ellow, bou**y**ant |
+| <PavachText :size="20" text="ts" /> | *&#x02a6;&#x0101;&#x01f3;* | **&#x02a6;** | Na**z**i, ra**ts** |
+| <PavachText :size="20" text="dz" /> | *&#x01f3;a&#x02a6;* | **&#x01f3;** | la**ds** |
+| <PavachText :size="20" text="tch" /> | *&#x02a8;&#x0101;&#x02a4;* | **&#x02a8;** | ra**tch**et, bo**tch** |
+| <PavachText :size="20" text="dj" /> | *&#x02a4;a&#x02a8;* | **&#x02a4;** | **Dj**ibouti, bri**dg**e |
+| <PavachText :size="20" text="tl" /> | *&#x026b;&#x0101;&#x0281;* | **&#x026b;** | ra**ttl**e, bo**ttle** |
+| <PavachText :size="20" text="dr" /> | *&#x0281;a&#x026b;* | **&#x0281;** | **dr**ain |
+| <PavachText :size="20" text="mr" /> | *o&#x019c;* | **&#x019c;** | the "mr" sound |
+| <PavachText :size="20" text="nl" /> | *o&#x0273;* | **&#x0273;** | the "nl" sound |
+| <PavachText :size="20" text="?" /> | *&#x0294;e&#x0294;* | **&#x0294;** | glottal stop |
+
+## Vowels Chart
+
+Here are the vowels.
+
+| Character | Name | Transliteration | Sound |
+| --- | --- | --- | --- |
+| <PavachText :size="20" text=".ii" /> | *s&#x012b;* | **&#x012b;** | **ea**st, fr**ee** |
+| <PavachText :size="20" text=".aa" /> | *s&#x0101;* | **&#x0101;** | b**a**ll, c**o**p |
+| <PavachText :size="20" text=".uu" /> | *s&#x016b;* | **&#x016b;** | y**ou**, cl**ue** |
+| <PavachText :size="20" text=".i" /> | *si* | **i** | ch**i**ll, **i**n |
+| <PavachText :size="20" text=".a" /> | *sa* | **a** | d**a**d, th**a**t |
+| <PavachText :size="20" text=".u" /> | *su* | **u** | s**u**n, r**u**n |
+| <PavachText :size="20" text=".e" /> | *se* | **e** | **e**gg, m**e**n |
+| <PavachText :size="20" text=".oo" /> | *s&#x0151;* | **&#x0151;** | l**oo**k, b**oo**k |
+| <PavachText :size="20" text=".o" /> | *so* | **o** | als**o**, p**o**st  |
+| <PavachText :size="20" text=".ie" /> | *s&#x0129;* | **&#x0129;** | r**i**de, br**i**ne  |
+| <PavachText :size="20" text=".ei" /> | *s&#x0117;* | **&#x0117;** | pr**i**ce, d**i**ce  |
+| <PavachText :size="20" text=".ai" /> | *s&#x0227;* | **&#x0227;** | th**ey**, pl**ay**  |
+| <PavachText :size="20" text=".ou" /> | *s&#x014f;* | **&#x014f;** | n**ow**, **ou**ch  |
+| <PavachText :size="20" text=".oi" /> | *s&#x022f;* | **&#x022f;** | **oy**ster, b**oy**  |
+| <PavachText :size="20" text="._" /> | *s&#x0259;* | **&#x0259;** | insignificant short vowel  |
