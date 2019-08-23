@@ -7,7 +7,10 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "Home", link: '/' },
-      { text: "Lessons", link: '/lessons/lesson01' }
+      { text: "Lessons", link: '/lessons/pre/alphabet' }
+    ],
+    sidebar: [
+      { title: "Pre", children: ['/lessons/pre/alphabet'] }
     ],
     customData: {
       pavachAlphabet: { consonants, vowels }

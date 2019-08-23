@@ -1,5 +1,5 @@
 
-# Lesson 1: The Pavach Alphabet and Basic Writing
+# Lesson 1: The Pavach Alphabet
 
 ## Letters
 
@@ -97,3 +97,34 @@ If both the consonant and vowel are present, as in both of the examples above,
 the character is called a **regular character**.
 
 ### Lone Consonants
+
+Characters consisting of only a consonant (no vowel) are called 
+**lone consonants** or **consonant characters**. They generally do not appear
+at the beginning of words. They usually appear at the end of words or prior to 
+a regular character. In natural Pavach words, two lone consonants never appear
+consecutively.
+
+Consider the first two syllables of my first name,
+<PavachTrans text="r.aa-k-s.a-n" />.
+
+<PavachText :size="20" text="r.aa-k" /> (<PavachTrans text="r.aa-k" />) <br />
+
+<PavachText :size="20" text="s.a-n" /> (<PavachTrans text="s.a-n" />) <br />
+
+<PavachText :size="20" text="r.aa-k-s.a-n" /> (<PavachTrans text="r.aa-k-s.a-n" />) <br />
+
+The first syllable (<PavachTrans text="r.aa-k" />) is composed of a regular
+character (<PavachTrans text="r.aa" />) and a lone consonant (*k*).
+The second syllable is also a regular character (<PavachTrans text="s.a" />) 
+followed by a lone consonant (*n*).
+
+### Lone Vowels
+
+Vowels appear by themselves (without a preceding consonant) usually only at the 
+beginning of words. Two consecutive lone vowels does not occur in Pavach words.
+Consider the name <PavachTrans text=".o-d._-r.a-m" />: <br />
+
+<PavachText :size="20" text=".o-d._-r.a-m" />
+
+The opening character consists of only a vowel. This is called a **lone vowel**
+or a **vowel character**.
