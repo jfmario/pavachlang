@@ -10,7 +10,13 @@ module.exports = {
       { text: "Lessons", link: '/lessons/pre/alphabet' }
     ],
     sidebar: [
-      { title: "Pre", children: ['/lessons/pre/alphabet'] }
+      { title: "Pre", children: ['/lessons/pre/alphabet'] },
+      {
+        title: "Unit 1",
+        children: [
+          "/lessons/unit01/lesson01"  
+        ]
+      }
     ],
     customData: {
       pavachAlphabet: { consonants, vowels }

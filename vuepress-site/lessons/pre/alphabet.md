@@ -1,5 +1,5 @@
 
-# Lesson 1: The Pavach Alphabet
+# The Pavach Alphabet
 
 ## Letters
 

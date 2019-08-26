@@ -1,0 +1,22 @@
+{
+  "name": "pavachlang",
+  "version": "1.0.0",
+  "description": "Main repo for Pavach language development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfmario/pavachlang.git"
+  },
+  "author": "John F Marion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfmario/pavachlang/issues"
+  },
+  "homepage": "https://github.com/jfmario/pavachlang#readme",
+  "dependencies": {
+    "underscore": "^1.9.1"
+  }
+}
