@@ -50,6 +50,8 @@ export default {
             }
           }
         }
+        
+        this.letterlist.push(' ');
       }
     }
     
