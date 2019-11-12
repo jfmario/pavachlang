@@ -34,10 +34,6 @@ Regardless of social rank differences, the end greeting
 
 ## Vocabulary
 
-* Hello
-* Good
-* Goodbye
-
 | Term | Transliteration | Meaning | Notes |
 | --- | --- | --- | --- |
 | <PavachText :size="20" text="m.o-f" /> | <PavachTrans text="m.o-f" /> | good |  |
@@ -54,4 +50,5 @@ Dropping the *om* ending is a little too familiar for strangers.
 
 ## Readings
 
-* Letter to Raksan from sister (done)
+* [A Letter](/readings/01/01.md)
+* [A Military Exchange](/readings/01/02.md)

@@ -1,6 +1,14 @@
 
 const _ = require('underscore');
 
+const patterns = [
+  'cv', 'vc',
+  'cvc', 'vcv',
+  'cvcv', 'vccv', 'vcvc',
+  'cvcvc', 'cvccv',
+  'vccvc', 'vcvcv'
+];
+
 function exec(args) {
   
   const consonants = require('../svg-dev/site/consonants.json');
@@ -8,7 +16,15 @@ function exec(args) {
   const consonantKeys = _.keys(consonants);
   const vowelKeys = _.keys(vowels);
   
-  let key = args.key;
+  let key = "cvc";
+  
+  if (args.key) {
+    key = args.key;
+  }
+  if (args.random) {
+    key = _.sample(patterns);
+  }
+  
   let val = '';
   for (let i = 0; i < key.length; ++i) {
     if (key[i] == 'c') {
